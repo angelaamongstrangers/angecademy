@@ -1,0 +1,295 @@
+
+@font-face {
+    font-family: 'arconrounded-regular';
+    src: url('font/arcon-rounded-regular-webfont.eot');
+    src: url('font/arcon-rounded-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/arcon-rounded-regular-webfont.woff2') format('woff2'),
+         url('font/arcon-rounded-regular-webfont.woff') format('woff'),
+         url('font/arcon-rounded-regular-webfont.ttf') format('truetype'),
+         url('font/arcon-rounded-regular-webfont.svg#arconrounded-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#top-navi {
+	background-color: #F3776B;
+	color: white;
+	border-bottom: none;
+}
+
+.some-text {
+	color: white;
+	font-family: 'arconrounded-regular';
+}
+
+.navbar-brand.some-text {
+	color: white;
+	font-family: 'arconrounded-regular';
+	letter-spacing: 2px;
+}
+
+.nav.navbar-nav.some-text li a {
+	color: #1D5085 ;
+	font-family: 'arconrounded-regular';
+	font-size: 16px;
+}
+
+.nav.navbar-nav.navbar-right.some-text li a{
+	color: white ;
+	font-family: 'arconrounded-regular';
+}
+
+.dropdown-menu.dropdown-text {
+	background-color: #F3776B;
+	color: #1D5085;
+}
+
+#container1 {
+	background-color: #1D5085;
+	max-width: 100%;
+	width: 2500px;
+	position: relative;
+	margin-top: -100px;
+	height: 900px;
+	
+}
+
+#logo {
+	width: 100px;
+	margin-top: 150px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+}
+
+#name {
+	width: 250px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.btn.btn-danger.btn-lg.mybutt {
+	font-family: 'arconrounded-regular';
+	margin-top: 50px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header {
+	font-family: 'arconrounded-regular';
+	padding-top: 40px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+h2 {
+	font-family: 'arconrounded-regular';
+	font-size: 18px;
+	color: #9BD8DA;
+	text-align: center;
+	margin-top: 50px;
+	letter-spacing: 2px;
+}
+
+h1 {
+	font-family: 'arconrounded-regular';
+	font-size: 25px;
+	color: #1D5085;
+	text-align: center;
+	margin-top: 50px;
+	letter-spacing: 2px;
+}
+
+#arrow {
+	width: 50px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
+
+#container2 {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 810px;
+}
+
+#container3 {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 810px;
+}
+
+#container3 img {
+	margin-top: 50px;
+	max-width: 100%;
+	width:250px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.imgBox {
+	display: inline-block;
+	margin-top: 50px;
+	width:250px;
+	height: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.imgBox:hover { 
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc; 
+} 
+
+
+#container4 {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+#container4 img {
+	margin-top: 30px;
+	max-width: 100%;
+	width:300px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.imgBox2 {
+	display: inline-block;
+	margin-top: 70px;
+	width:300px;
+	height: 250px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.imgBox2:hover { 
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc; 
+} 
+
+
+#container {
+	max-width: 100%;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+
+
+#container5 {
+	background-color: #F2776B;
+	max-width: 100%;
+	width: 2500px;
+	position: relative;
+	margin-top: 10px;
+	height: 900px;
+}
+
+#container5 h1 {
+	padding-top: 50px;
+	font-size: 28px;
+}
+
+#container5 img {
+	padding-top: 25px;
+	max-width: 100%;
+	width: 960px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
